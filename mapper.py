@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 import re
 import sys
 
@@ -10,4 +10,4 @@ for line in sys.stdin:
         ip = match.group(1)
         hour = match.group(2)
 
-        print(f"{hour}\t{ip}\t1")
+        print "{}\t{}\t1".format(hour, ip)
