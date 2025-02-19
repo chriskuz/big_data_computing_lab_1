@@ -3,8 +3,8 @@ import sys
 import os
 from collections import defaultdict
 
-start_hour = int(os.environ.get('START', '00'))  # Default to 0
-end_hour = int(os.environ.get('END', '17'))  # Default to 17
+start_hour = int(os.environ.get('$START', '00'))  # Default to 0
+end_hour = int(os.environ.get('$END', '17'))  # Default to 17
 
 ip_counts = defaultdict(int)
 
