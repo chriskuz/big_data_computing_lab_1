@@ -1,5 +1,5 @@
 #!/bin/sh
-../../start.sh
+../../../start.sh
 /usr/local/hadoop/bin/hdfs dfs -rm -r /lab1/input/
 /usr/local/hadoop/bin/hdfs dfs -rm -r /lab1/output/
 /usr/local/hadoop/bin/hdfs dfs -mkdir -p /lab1/input/
