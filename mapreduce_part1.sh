@@ -11,3 +11,4 @@
 /usr/local/hadoop/bin/hdfs dfs -cat /lab1/output/part-00000
 /usr/local/hadoop/bin/hdfs dfs -rm -r /lab1/input/
 /usr/local/hadoop/bin/hdfs dfs -rm -r /lab1/output/
+../../../stop.sh
