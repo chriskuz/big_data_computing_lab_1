@@ -15,7 +15,7 @@ echo "Running Hadoop job for time range: $START to $END..."
 -mapper "python mapper.py" \
 -reducer "python reducer2.py" \
 -cmdenv START=$START \
--cmdenv END=$END \
+-cmdenv END=$END 
 -input /lab1/input/* \
 -output /lab1/output/
 /usr/local/hadoop/bin/hdfs dfs -cat /lab1/output/part-00000
